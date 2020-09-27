@@ -9,4 +9,4 @@ def sum_function(lst):
     return sum(lst)
 
 
-values = range(10000000)
+values = range(1000000)
