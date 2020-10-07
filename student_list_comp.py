@@ -11,4 +11,4 @@ combined = zip(students, fav_subject, scores)
 students_info = list(combined)
 
 for student in students_info:
-    print("{}'s favorite subject is {} and they last scored {}".format(*student))
+    print("{}'s favorite subject is {} and they last scored {}%".format(*student))
