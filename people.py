@@ -2,8 +2,10 @@ import random
 import time
 from past.builtins import xrange
 
-names = ['Andile', 'Eric', 'Nandipa', 'Phumz', 'Zandile', 'Proud', 'Clifton']
-majors = ['Engineering', 'Data Science', 'Biomedicine', 'Computer Science', 'Chemistry', 'Design']
+names = ['Andile', 'Eric', 'Nandipa', 'Phumz', 'Zandile', 'Proud', 'Clifton', 'Mzie-Michael', 'Nokuzola', 'Lisa',
+         'Rejoice']
+majors = ['Engineering', 'Data Science', 'Biomedicine', 'Computer Science', 'Chemistry', 'Design', 'Screenplay Writing',
+          'Physics', 'Law', 'Accounting']
 
 print('Memory (Before): {}Mb'.format(mem_profile.memory_usage_resource()))
 
@@ -41,4 +43,4 @@ people = people_generator(1000000)
 t2 = time.clock()
 
 print('Memory (After) : {}Mb'.format(mem_profile.memory_usage_resource()))
-print('Took {} seconds'.format(t2-t1))
+print('Took {} seconds'.format(t2 - t1))
