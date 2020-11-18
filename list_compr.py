@@ -1,3 +1,9 @@
+"""
+Author: Andile Jaden M
+Program: List Comprehension
+Date: 26 September 2020
+"""
+
 # List comprehesion
 customers = ['Andile', 'Eric', 'Proud', 'Nandipa', 'Phumz']
 ages = [22, 25, 20, 20, 21]

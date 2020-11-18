@@ -1,7 +1,13 @@
+"""
+Author: Andile Jaden M
+Credits: Vuyisile Ndlovu
+"""
+
+
 def sum_list(lst):
     total = 0
     for item in lst:
-        total = total + item
+        total += item
     return total
 
 
