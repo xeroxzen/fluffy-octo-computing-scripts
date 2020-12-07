@@ -1,6 +1,7 @@
 import random
 import time
 from past.builtins import xrange
+import memory_profiler as mem_profile
 
 names = ['Andile', 'Eric', 'Nandipa', 'Phumz', 'Zandile', 'Proud', 'Clifton', 'Mzie-Michael', 'Nokuzola', 'Lisa',
          'Rejoice']
